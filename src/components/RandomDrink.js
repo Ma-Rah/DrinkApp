@@ -2,16 +2,16 @@ import React from "react";
 
 function RandomDrink(props) {
 	return (
-		<div className="p-5 w-full">
+		<div className="py-1w-full">
 			{" "}
 			{props.randomDrink.map((result, index) => (
 				<div
 					key={index}
 					onClick={() => props.setSelectedDrink(index)}
-					className="drink__card h-50 bg-indigo-50 p-5 m-5 flex flex-col justify-around items-center
+					className="drink__card h-50 bg-indigo-50 p-2 m-1 flex flex-col justify-around items-center
 					text-center leading-loose	"
 				>
-					<h1 className="text-xl sm:text-2xl md:text-4xl text-red-500 my-8">{result.strDrink}</h1>
+					<h1 className="text-3xl sm:text-2xl md:text-4xl text-red-500 py-3">{result.strDrink}</h1>
 					<img
 						src={result.strDrinkThumb && result.strDrinkThumb}
 						alt={result.strDrink}
@@ -19,7 +19,7 @@ function RandomDrink(props) {
 					/>
 
 					<div>
-						<div className="text-lg md:text-xl  p-5">
+						<div className="text-md md:text-xl py-2">
 							<h2>{result.strGlass}</h2>
 							<br />
 							<p>
@@ -32,7 +32,7 @@ function RandomDrink(props) {
 								{result.strIngredient3} {result.strMeasure3}
 							</p>
 						</div>
-						<div className="bg-white p-3 shadow">
+						<div className="bg-white p-2 shadow">
 							<p className="p-2 text-red-600 text-sm sm:text-lg md:text-xl ">
 								{result.strInstructions}
 							</p>

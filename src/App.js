@@ -21,8 +21,8 @@ function App() {
 
 	return (
 		<div className="App">
-			<header className="bg-green-100 flex justify-center items-center h-16">
-				<button onClick={handleRandom} className="shadow rounded w-12 h-12 bg-blue-300">
+			<header className="bg-gray-700 flex justify-center items-center h-16">
+				<button onClick={handleRandom} className="shadow rounded w-12 h-12 bg-green-300">
 					🍸
 				</button>
 			</header>

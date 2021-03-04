@@ -21,11 +21,15 @@ function App() {
 
 	return (
 		<div className="App">
-			<header className="bg-gray-700 flex justify-center items-center h-16">
-				<button onClick={handleRandom} className="shadow rounded w-12 h-12 bg-green-300">
-					🍹
+			<header className="bg-gray-700 flex flex-col justify-center items-center h-16">
+				<button
+					onClick={handleRandom}
+					className="shadow rounded w-12 h-12 bg-green-300 text-red-500 pointer"
+				>
+					<i class="fas fa-random"></i>
 				</button>
 			</header>
+
 			<main className="min-h-screen w-full flex flex-col items-center content-start p-3">
 				<div className="">
 					<RandomDrink randomDrink={randomDrink} />

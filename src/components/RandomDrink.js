@@ -21,7 +21,6 @@ function RandomDrink(props) {
 					<div>
 						<div className="text-md md:text-xl py-1">
 							<h2 className="py-3">{result.strGlass}</h2>
-
 							<p>
 								<span className="text-gray-900 px-1"> {result.strIngredient1} </span>
 								<span className="text-red-400">{result.strMeasure1}</span>

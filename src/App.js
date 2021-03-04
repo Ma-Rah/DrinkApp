@@ -23,10 +23,10 @@ function App() {
 		<div className="App">
 			<header className="bg-gray-700 flex justify-center items-center h-16">
 				<button onClick={handleRandom} className="shadow rounded w-12 h-12 bg-green-300">
-					🍸
+					🍹
 				</button>
 			</header>
-			<main className="min-h-screen w-full flex flex-col items-center content-start p-5">
+			<main className="min-h-screen w-full flex flex-col items-center content-start p-3">
 				<div className="">
 					<RandomDrink randomDrink={randomDrink} />
 				</div>

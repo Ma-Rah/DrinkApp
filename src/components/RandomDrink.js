@@ -23,13 +23,16 @@ function RandomDrink(props) {
 							<h2>{result.strGlass}</h2>
 							<br />
 							<p>
-								{result.strIngredient1} {result.strMeasure1}
+								<span className="text-gray-900 px-1"> {result.strIngredient1} </span>
+								<span className="text-red-400">{result.strMeasure1}</span>
 							</p>
 							<p>
-								{result.strIngredient2} {result.strMeasure2}
+								<span className="text-gray-900 px-1"> {result.strIngredient2} </span>
+								<span className="text-red-400"> {result.strMeasure2}</span>
 							</p>
 							<p>
-								{result.strIngredient3} {result.strMeasure3}
+								<span className="text-gray-900 px-1"> {result.strIngredient3}</span>{" "}
+								<span className="text-red-400">{result.strMeasure3}</span>
 							</p>
 						</div>
 						<div className="bg-white p-2 shadow">

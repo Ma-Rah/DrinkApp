@@ -2,7 +2,7 @@ import React from "react";
 
 function RandomDrink(props) {
 	return (
-		<div className="py-1w-full">
+		<div className="py-1">
 			{" "}
 			{props.randomDrink.map((result, index) => (
 				<div

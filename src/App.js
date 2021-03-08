@@ -31,7 +31,7 @@ function App() {
 			</header>
 
 			<main className="min-h-screen w-full flex flex-col items-center content-start p-3">
-				<div className="">
+				<div className="w-full lg:w-1/2">
 					<RandomDrink randomDrink={randomDrink} />
 				</div>
 			</main>

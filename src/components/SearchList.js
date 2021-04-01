@@ -1,6 +1,6 @@
 function SearchList(props) {
 	return (
-		<div className="py-1 w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+		<div className="py-1 container mx-auto w-full lg:w-3/4 2xl:w-2/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
 			{props.searchResults.map((drink, key) => {
 				return (
 					<div
@@ -12,11 +12,11 @@ function SearchList(props) {
 							props.setSearchResults(null);
 						}}
 					>
-						<h2 className="text-xl sm:text-2xl text-red-500">{drink.strDrink}</h2>
+						<h2 className="text-lg sm:text-xl text-red-500 p-1">{drink.strDrink}</h2>
 						<img
 							src={drink.strDrinkThumb && drink.strDrinkThumb}
 							alt={drink.strDrink}
-							className="shadow rounded w-20 h-20"
+							className="shadow rounded w-14 md:w-20 h-14 md:h-20"
 						/>
 					</div>
 				);

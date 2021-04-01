@@ -72,7 +72,7 @@ function DrinkDetails(props) {
 							)}
 						</div>
 						<div className="bg-white p-2 mx-2 shadow flex justify-center">
-							<p className="p-2 text-red-600 text-sm md:text-lg w-full md:w-3/4">
+							<p className="p-2 text-red-600 text-sm md:text-lg w-full md:w-3/4  ">
 								{instructions ? instructions : "Enjoy!"}
 							</p>
 						</div>

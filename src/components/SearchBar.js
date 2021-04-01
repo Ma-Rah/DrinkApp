@@ -11,13 +11,13 @@ function SearchBar(props) {
 				<input
 					type="text"
 					onChange={(e) => props.setSearchTerm(e.target.value)}
-					className="p-1 text-sm"
+					className="p-1 text-sm rounded-l outline-none"
 					placeholder="Search for a drink!"
 				/>
 				<input
 					type="submit"
 					value="🔎"
-					className="py-1 px-3 bg-green-300 text-red-500 cursor-pointer text-sm"
+					className="py-1 px-3 bg-green-300 text-red-500 cursor-pointer text-sm rounded-r outline-none	"
 				/>
 			</form>
 		</div>

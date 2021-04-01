@@ -37,7 +37,7 @@ function App() {
 			<header className="bg-gray-700 flex justify-center items-center h-16">
 				<button
 					onClick={randomData}
-					className="shadow rounded w-12 h-12 bg-green-300 text-red-500 pointer mx-5"
+					className=" rounded w-12 h-12 bg-green-300 text-red-500 pointer mx-5"
 				>
 					<i className="fas fa-random"></i>
 				</button>

@@ -1,10 +1,18 @@
 import React from "react";
 
 function RandomDrink(props) {
+	console.log(props);
+
+	const { strDrink: name, strDrinkThumb: img } = props.props;
+	console.log(name);
+	console.log(img);
+
 	return (
 		<div className="py-1w-full">
 			{" "}
-			{props.randomDrink.map((result, index) => (
+			<div className="text-2xl">{name}</div>
+			{img}
+			{/* {props.randomDrink.map((result, index) => (
 				<div
 					key={index}
 					onClick={() => props.setSelectedDrink(index)}
@@ -41,7 +49,7 @@ function RandomDrink(props) {
 						</div>
 					</div>
 				</div>
-			))}
+			))} */}
 		</div>
 	);
 }

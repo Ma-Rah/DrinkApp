@@ -8,7 +8,7 @@ function RandomDrink(props) {
 	console.log(img);
 
 	return (
-		<div className="py-1w-full">
+		<div className="py-1">
 			{" "}
 			<div className="text-2xl">{name}</div>
 			{img}

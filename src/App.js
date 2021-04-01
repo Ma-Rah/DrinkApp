@@ -50,6 +50,7 @@ function App() {
 				/>
 			</header>
 
+<<<<<<< HEAD
 			<main className="min-h-screen w-full flex flex-col items-center content-start">
 				{!searchResults && randomDrink
 					? !selectedDrink && <DrinkDetails props={randomDrink} />
@@ -64,6 +65,12 @@ function App() {
 				{selectedDrink ? (
 					<DrinkDetails props={selectedDrink.drink} setSearchResults={setSearchResults} />
 				) : null}
+=======
+			<main className="min-h-screen w-full flex flex-col items-center content-start p-3">
+				<div className="w-full lg:w-1/2">
+					<RandomDrink randomDrink={randomDrink} />
+				</div>
+>>>>>>> a2956580f829c0707dddb6ed3f9cb81649fc3d4f
 			</main>
 		</div>
 	);

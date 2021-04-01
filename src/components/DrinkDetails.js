@@ -1,6 +1,5 @@
 function DrinkDetails(props) {
 	// Destructure props
-
 	const {
 		strDrink: name,
 		strDrinkThumb: image,

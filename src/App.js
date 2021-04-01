@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import DrinkDetails from "./components/DrinkDetails";
 import SearchList from "./components/SearchList";
 import SearchBar from "./components/SearchBar";
+import { FaRandom } from "react-icons/fa";
 
 function App() {
 	// States
@@ -36,10 +37,10 @@ function App() {
 		<div className="subpixel-antialiased">
 			<header className="bg-gray-700 flex justify-center items-center h-16">
 				<button
+					className="rounded w-12 h-12 bg-green-300 text-red-500 cursor-pointer mx-5 flex	justify-center items-center"
 					onClick={randomData}
-					className=" rounded w-12 h-12 bg-green-300 text-red-500 pointer mx-5"
 				>
-					<i className="fas fa-random"></i>
+					<FaRandom />
 				</button>
 
 				<SearchBar

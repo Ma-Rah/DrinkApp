@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DrinkApp/static/css/main.f2e4e449.chunk.css",
+    "main.js": "/DrinkApp/static/js/main.ac42e087.chunk.js",
+    "main.js.map": "/DrinkApp/static/js/main.ac42e087.chunk.js.map",
+    "runtime-main.js": "/DrinkApp/static/js/runtime-main.59b3a14a.js",
+    "runtime-main.js.map": "/DrinkApp/static/js/runtime-main.59b3a14a.js.map",
+    "static/js/2.429b0edb.chunk.js": "/DrinkApp/static/js/2.429b0edb.chunk.js",
+    "static/js/2.429b0edb.chunk.js.map": "/DrinkApp/static/js/2.429b0edb.chunk.js.map",
+    "index.html": "/DrinkApp/index.html",
+    "static/css/main.f2e4e449.chunk.css.map": "/DrinkApp/static/css/main.f2e4e449.chunk.css.map",
+    "static/js/2.429b0edb.chunk.js.LICENSE.txt": "/DrinkApp/static/js/2.429b0edb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DrinkApp/static/media/bg.b3734bdf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59b3a14a.js",
+    "static/js/2.429b0edb.chunk.js",
+    "static/css/main.f2e4e449.chunk.css",
+    "static/js/main.ac42e087.chunk.js"
+  ]
+}
